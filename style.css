@@ -13,6 +13,7 @@ img {
 header {
     background-color: #1f2937;
     font-size: 18px;
+    flex: 1;
 
 }
 h1 {
@@ -29,6 +30,14 @@ a {
 
 }
 
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+
+}
+
 .one {
     background-color: #1f2937;
     padding: 10px;
@@ -37,12 +46,38 @@ a {
 }
 .brand {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.intro {
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
+    align-items: flex-end;
 }
+ /* need to find a way to get the this website is awesome part to stay on the left side */
+
+ .two,.three {
+    display: flex;
+    padding: 20px;
+ }
+
+ .three {
+    background-color:#e5e7eb;
+ }
+
+ .action {
+    background-color:#3882f6;
+    color: white;
+    display: flex;
+    justify-content: center;
+ }
+
+ .button {
+    display: flex;
+
+ }
+
+ .enroll {
+    display: flex;
+    justify-content: flex-start;
+ }
+
+
+
+
