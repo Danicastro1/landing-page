@@ -3,21 +3,37 @@ img {
     width: 300px;
 
 }
+body {
+    flex-grow: 1;
+}
 .top {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+
+}
+
+.corner {
+    font-size: 24px;
 }
 
 header {
     background-color: #1f2937;
     font-size: 18px;
-    flex: 1;
 
 }
-h1 {
+.intro {
     color: white;
+    font-size: 48px;
+    font-weight: bolder;
+    display: flex;
+}
+.subtitle {
+    color: white;
+    display: flex;
+
 }
 a {
     text-decoration: none;
@@ -26,7 +42,6 @@ a {
 
 .links {
     display: flex;
-    justify-content: space-evenly;
 
 }
 
@@ -47,7 +62,7 @@ button {
 .brand {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: flex-end;
 }
  /* need to find a way to get the this website is awesome part to stay on the left side */
@@ -66,17 +81,32 @@ button {
     color: white;
     display: flex;
     justify-content: center;
+    align-items: flex-end;
+    /* margin: 15px; */
+    padding: 10px;
+
+
  }
 
  .button {
     display: flex;
+    justify-content: center;
 
  }
 
- .enroll {
+ .call {
     display: flex;
     justify-content: flex-start;
+    align-items: flex-end;
  }
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
 
 
 
