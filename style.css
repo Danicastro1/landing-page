@@ -1,15 +1,18 @@
 img {
     height: auto;
     width: 300px;
+    border-radius: 20px;
 
 }
 body {
-    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
 .top {
-
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding: 10px;
     align-items: center;
     color: white;
 
@@ -17,33 +20,68 @@ body {
 
 .corner {
     font-size: 24px;
+    /* display: flex; */
+    /* flex-direction: row;
+    justify-content: flex-start; */
 }
-
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  
+}
 header {
     background-color: #1f2937;
     font-size: 18px;
 
 }
 .intro {
+    padding-left: 16px;
     color: white;
     font-size: 48px;
     font-weight: bolder;
     display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    
 }
 .subtitle {
+    padding-left: 16px;
     color: white;
     display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
 
+.signup {
+    padding-left: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 a {
     text-decoration: none;
     color: white;
+    list-style: none;
 }
-
-.links {
+.one {
+    background-color: #1f2937;
+    padding: 10px;
     display: flex;
+    flex-direction: column;
 
 }
+.half {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding: 15px;
+    /* flex-wrap: wrap; */
+
+}
+
 
 button {
     background-color: #3882f6;
@@ -53,27 +91,50 @@ button {
 
 }
 
-.one {
-    background-color: #1f2937;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-}
+
 .brand {
+    padding: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: flex-end;
 }
  /* need to find a way to get the this website is awesome part to stay on the left side */
 
- .two,.three {
+ .two {
     display: flex;
     padding: 20px;
+    flex: 1;
  }
+
+.center {
+    display: flex;
+    padding: 40px;
+}
+
+    /* use border style, radius, and color when adding borders to imgs
+    border-style: solid;
+    border-radius: 25px;
+    border-color: #3882f6; */
+
+.random {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
 
  .three {
     background-color:#e5e7eb;
+    font-style: italic;
+    font-size: 26px;
+    color: #1f2937;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
  }
 
  .action {
@@ -94,8 +155,9 @@ button {
 
  }
 
- .call {
+ .call,.enroll {
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: flex-end;
  }
