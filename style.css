@@ -79,7 +79,6 @@ main {
 
 .signup {
     padding-bottom: 40px;
-
 }
 
 
@@ -105,28 +104,38 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-basis: 100%;
+    /* flex-basis: 100%; */
     padding-top: 50px;
     padding-bottom: 50px;
  }
 
+ .two {
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: none;
+ }
+
 #center {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 5px;
-    border-radius: 30px;
-    flex-grow: 1;
-    flex-shrink: 1;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+    /* flex: none; */
+    /* border-radius: 30px;
+    flex-basis: 50%; */
+    /* width: 65%; */
 }
 .caption {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-bottom: 50px;
-
-
-
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border-radius: 30px;
+    flex-basis: 50%; */
+    gap: 10px;
+    width: 90%;
+    /* flex: none; */
 }
 
     /* use border style, radius, and color when adding borders to imgs
