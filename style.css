@@ -106,18 +106,26 @@ button {
     justify-content: center;
     align-items: center;
     flex-basis: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
  }
 
 #center {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 5px;
-    padding-bottom: 50px;
     border-radius: 30px;
     flex-grow: 1;
+    flex-shrink: 1;
 }
 .caption {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+
+
 
 }
 
