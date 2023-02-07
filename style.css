@@ -10,49 +10,60 @@ body {
 }
 .top {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding-left: 16px;
     padding: 10px;
     align-items: center;
-    color: white;
+    /* color: white; */
 
 }
 
-.corner {
+h1 {
     font-size: 24px;
-    /* display: flex; */
-    /* flex-direction: row;
-    justify-content: flex-start; */
+    padding-left: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
 }
 .links {
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
+    flex: 1;
+    justify-content: flex-end;
   
 }
 header {
     background-color: #1f2937;
-    font-size: 18px;
+    /* font-size: 18px; */
+    color: white;
+    
 
 }
 .intro {
     padding-left: 16px;
-    color: white;
     font-size: 48px;
     font-weight: bolder;
-    display: flex;
-    align-items: flex-start;
-    align-content: flex-start;
+    /* display: flex; */
+    /* align-items: flex-start;
+    align-content: flex-start; */
     
 }
 .subtitle {
-    padding-left: 16px;
-    color: white;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    padding-left: 15px;
     flex-wrap: wrap;
+    margin: 10px;
+
+    /* display: flex; */
+    /* justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap; */
 }
+
+/* .intro,.subtitle {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    flex: 100px 1 0;
+} */
 
 .signup {
     padding-left: 16px;
@@ -64,6 +75,7 @@ a {
     text-decoration: none;
     color: white;
     list-style: none;
+
 }
 .one {
     background-color: #1f2937;
@@ -74,11 +86,12 @@ a {
 }
 .half {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
     padding: 15px;
     /* flex-wrap: wrap; */
+    /* align-items: space-between; */
 
 }
 
@@ -96,41 +109,49 @@ button {
     padding: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end;
+    justify-content: flex-end;
+    align-items: center;
+    flex: wrap;
+
 }
- /* need to find a way to get the this website is awesome part to stay on the left side */
 
  .two {
     display: flex;
+    flex-direction: column;
     padding: 20px;
-    flex: 1;
+    flex-basis: 100%;
+    margin: 10px;
  }
 
 .center {
     display: flex;
+    align-self: flex-start;
     padding: 40px;
+    flex: 1;
 }
+
 
     /* use border style, radius, and color when adding borders to imgs
     border-style: solid;
     border-radius: 25px;
     border-color: #3882f6; */
 
+ 
 .random {
     font-size: 36px;
     font-weight: bold;
-    color: #1f2937;
+    /* color: #1f2937; */
     display: flex;
-    flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-self: center;
+   
 }
 
  .three {
     background-color:#e5e7eb;
     font-style: italic;
     font-size: 26px;
+    padding-left: 16px;
     color: #1f2937;
     display: flex;
     padding: 20px;
@@ -141,25 +162,20 @@ button {
     background-color:#3882f6;
     color: white;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    /* margin: 15px; */
-    padding: 10px;
-
-
- }
-
- .button {
-    display: flex;
-    justify-content: center;
-
- }
-
- .call,.enroll {
-    display: flex;
+    /* justify-content: space-between; */
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end;
+    align-items: center;
+    flex: 1;
+    /* margin: 15px; */
+    /* padding: 10px; */
+
+
+ }
+
+
+ .call,.enroll,.button {
+    margin: 5px;
+    /* background-color: #3882f6; */
  }
 
 footer {
