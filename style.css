@@ -8,15 +8,7 @@ body {
     display: flex;
     flex-direction: column;
 }
-/* .top {
-    display: flex;
-    justify-content: space-between; 
-    padding-left: 16px;
-    padding: 10px;
-    align-items: center; 
-    color: white; 
 
-} keeping  here in case i need to reference later*/
 
 h1 {
     font-size: 24px;
@@ -140,7 +132,7 @@ button {
 }
 
 .intro-left {
-    width: 30%;
+    width: 50%;
 }
 
 .brand {
@@ -155,20 +147,25 @@ button {
  section {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 40px;
     flex-basis: 100%;
     /* margin: 10px; */
  }
 
 #center {
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 50px;
     /* align-self: flex-start; */
-    padding: 15px 30px;
+    /* padding: 15px 30px; */
     border-radius: 30px;
-    flex-grow: 0;
+    flex-grow: 1;
 }
-
+.caption {
+    text-align: center;
+}
 
     /* use border style, radius, and color when adding borders to imgs
     border-style: solid;
@@ -193,7 +190,7 @@ h3 {
     padding-left: 16px;
     color: #1f2937;
     display: flex;
-    padding: 20px;
+    padding: 70px;
     justify-content: center;
  }
 
@@ -201,20 +198,28 @@ h3 {
     background-color:#3882f6;
     color: white;
     display: flex;
-    /* justify-content: space-between; */
-    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
     flex: 1;
+    border-radius: 10px;
     /* margin: 15px; */
     /* padding: 10px; */
-
-
+    margin: 50px;
  }
 
+ .cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+ }
 
- .call,.enroll,.button {
-    margin: 5px;
-    /* background-color: #3882f6; */
+ .button {
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 10%;
  }
 
 footer {
@@ -222,7 +227,7 @@ footer {
     color: white;
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 
