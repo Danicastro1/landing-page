@@ -8,38 +8,64 @@ body {
     display: flex;
     flex-direction: column;
 }
-.top {
+/* .top {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between; 
     padding-left: 16px;
     padding: 10px;
-    align-items: center;
-    /* color: white; */
+    align-items: center; 
+    color: white; 
 
-}
+} keeping  here in case i need to reference later*/
 
 h1 {
     font-size: 24px;
-    padding-left: 16px;
-    display: flex;
+    padding-left: 5px;
+    /* display: flex;
     flex-direction: row;
-    justify-content: flex-start; 
+    justify-content: flex-start;  */
 }
-.links {
+/* .links {
     display: flex;
     flex: 1;
     justify-content: flex-end;
   
+} keeping here in case I need to reference */
+
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+
 }
-header {
+.one {
+    background-color: #1f2937;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+}
+
+
+header, main {
     background-color: #1f2937;
     /* font-size: 18px; */
     color: white;
     
 
 }
-.intro {
-    padding-left: 16px;
+h2 {
+    padding-left: 5px;
     font-size: 48px;
     font-weight: bolder;
     /* display: flex; */
@@ -47,16 +73,37 @@ header {
     align-content: flex-start; */
     
 }
-.subtitle {
+
+p {
+    padding-left: 16px;
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    /* flex: 1; */
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* .subtitle {
     padding-left: 15px;
     flex-wrap: wrap;
     margin: 10px;
 
-    /* display: flex; */
-    /* justify-content: flex-start;
+    display: flex;
+    justify-content: flex-start;
     align-items: flex-start;
-    flex-wrap: wrap; */
-}
+    flex-wrap: wrap; 
+} */
 
 /* .intro,.subtitle {
     display: flex;
@@ -67,33 +114,21 @@ header {
 
 .signup {
     padding-left: 16px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-a {
-    text-decoration: none;
-    color: white;
-    list-style: none;
+    padding-bottom: 40px;
 
 }
-.one {
-    background-color: #1f2937;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
 
-}
-.half {
+/* .half  keeping here in case main does not work*/
+/* main {
     display: flex;
     flex: 1;
     flex-direction: column;
     justify-content: flex-start;
     padding: 15px;
-    /* flex-wrap: wrap; */
-    /* align-items: space-between; */
+    flex-wrap: wrap;
+    align-items: space-between;
 
-}
+} */
 
 
 button {
@@ -104,30 +139,34 @@ button {
 
 }
 
+.intro-left {
+    width: 30%;
+}
 
 .brand {
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    flex: wrap;
+    padding-top: 25px;
+   /* flex-direction: column;
+    justify-content: flex-start; */
+    /* align-items: center; */
+    /* flex: 1; */
 
 }
 
- .two {
+ section {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    align-items: center;
+    padding: 40px;
     flex-basis: 100%;
-    margin: 10px;
+    /* margin: 10px; */
  }
 
-.center {
+#center {
     display: flex;
-    align-self: flex-start;
-    padding: 40px;
-    flex: 1;
+    /* align-self: flex-start; */
+    padding: 15px 30px;
+    border-radius: 30px;
+    flex-grow: 0;
 }
 
 
@@ -137,7 +176,7 @@ button {
     border-color: #3882f6; */
 
  
-.random {
+h3 {
     font-size: 36px;
     font-weight: bold;
     /* color: #1f2937; */
