@@ -23,7 +23,7 @@ a {
 
 }
 .one {
-    background-color: #1f2937;
+    background-color: #c00000;
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -41,8 +41,9 @@ ul {
 
 
 header, main {
-    background-color: #1f2937;
-    /* font-size: 18px; */
+    background-color: #c00000;
+    /* font-size: 18px; 
+    change color back to #1f2937*/
     color: white;
     
 
@@ -83,7 +84,8 @@ main {
 
 
 button {
-    background-color: #3882f6;
+    background-color: #ff8896;
+    /*change color back to #3882f6*/
     color: white;
     border-radius: 5px;
     padding: 5px 20px 5px 20px;
@@ -120,23 +122,29 @@ button {
 #center {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+   justify-content: space-between;
     gap: 10px;
-    /* flex: none; */
-    /* border-radius: 30px;
-    flex-basis: 50%; */
-    /* width: 65%; */
+    flex-basis: 50%; 
+  
 }
+
+.box {
+    padding: 5px;
+    border: 3px solid #ff6f77;
+    border-radius: 30px;
+}
+
 .caption {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     /* border-radius: 30px;
     flex-basis: 50%; */
-    gap: 10px;
+    gap: 0px;
     width: 90%;
     /* flex: none; */
 }
+
 
     /* use border style, radius, and color when adding borders to imgs
     border-style: solid;
@@ -154,7 +162,8 @@ h3 {
 }
 
  .three {
-    background-color:#e5e7eb;
+    background-color:#ffdee3;
+    /*change color back to #e5e7eb*/
     font-style: italic;
     font-size: 26px;
     padding-left: 16px;
@@ -165,7 +174,8 @@ h3 {
  }
 
  .action {
-    background-color:#3882f6;
+    background-color:#ff6f77;
+    /*change color back to #3882f6*/
     color: white;
     display: flex;
     justify-content: space-around;
@@ -192,7 +202,8 @@ h3 {
  }
 
 footer {
-    background-color: #1f2937;
+    background-color: #c00000;
+    /*change color back to #1f2937*/
     color: white;
     display: flex;
     justify-content: center;
